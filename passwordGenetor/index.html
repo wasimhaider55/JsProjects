@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./custom.css">
+    <title>Password generator</title>
+</head>
+<body>
+   <div class="main">
+    <div class="box">
+        <span id="pass-box">Testing .....</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="15" min="2" value="10" />
+                </div>
+            </div>
+
+            <div class="row">
+               <div class="left"> <label for="upper-case"> Contains UpperCase  </label> </div>
+                <div class="right"><input type="checkbox" name="" id="upper-case" checked/> </div>
+            </div>
+
+            <div class="row">
+               <div class="left"> <label for=""> Contain LowerCase </label> </div>
+                <div class="right"><input type="checkbox" name="" id="lower-case" checked></div>
+            </div>
+
+            <div class="row">
+               <div class="left"> <label for=""> Contain Numbers </label> </div>
+                <div class="right"><input type="checkbox" name="" id="numbers" checked></div>
+            </div>
+
+            <div class="row">
+               <div class="left"> <label for=""> Contain Symbols </label> </div>
+                <div class="right"><input type="checkbox" name="" id="symbols" checked></div>
+            </div>
+
+            <div class="row">
+                <button id="btn">Generate</button>
+            </div>
+    </div>
+   </div>
+
+
+   <script src="./app.js"></script>
+</body>
+</html>
