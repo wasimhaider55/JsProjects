@@ -49,6 +49,7 @@
     height: 7.3%;
     top: 46.1%;
     left: 46.1%;
-    background: linear-gradient(to bottom, gray, brown,blueviolet);
+    border-radius: 100px;
+    background: linear-gradient(to left, gray, brown,blueviolet);
  
 }
